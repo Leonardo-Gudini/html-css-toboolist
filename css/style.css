@@ -68,10 +68,9 @@ header{
 }
 /* fine stile sezione bottoni */
 
-
 /* sezione dei task*/
 .section-task{
-    height: 750px;
+    height: 700px;
     margin: 4px auto;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -81,6 +80,11 @@ header{
 h2::before{
     content: "\25BE ";
     margin-right: 10px;
+}
+
+/* titolo dei task*/
+h2{
+    height: 40px;
 }
 
 /* inizio stile spunta e croce*/
