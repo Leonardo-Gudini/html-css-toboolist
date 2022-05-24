@@ -12,35 +12,93 @@
 </head>
 <body>
     
+    <!-- logo e titolo-->
     <header>
-
         <img class="logo" src="img/Logo.png" alt="logo">
         <span class="logo-text"><h1>Toboolist</h1></span>
-
     </header>
 
     <main>
 
+        <!-- sezione bottoni task e section-->
         <section class="section-btn">
             <button class="btn" id="task-btn">Add Task</button>
             <button class="btn" id="sec-btn">Add Section</button>
         </section>
+        <!-- fine sezione bottoni task e section-->
 
+
+        <!-- sezione task, today e upcoming-->
         <section class="section-task">
+
+
             <div class="new-task">
                 <h2>New Task</h2>
-                <span class="check">&check;</span>
-                <ul>
-                    <li>Quarterly Newsletter</li>
-                </ul>
-                <span class="btn-editorial">Editorial</span>
+                <div class="container">
+                    <ul>
+                        <li>
+                            <span class="check">&check;</span>
+                            <span>Quarterly Newsletter</span>
+                            <span class="color-btn btn-editorial">Editorial</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
+
+
             <div class="today">
+                <h2>Today</h2>
                 <ul>
-                    <li></li>
+                    <li>
+                        <span class="check">&check;</span>
+                        <span>Recruiting blog post</span>
+                        <span class="color-btn btn-editorial">Editorial</span>
+                    </li>
+                    <li>
+                        <span class="check">&check;</span>
+                        <span>Mobile app launch</span>
+                        <span class="color-btn btn-q1">Q1 Goals</span>
+                    </li>
+                    <li>
+                        <span class="cross">&cross;</span>
+                        <span>Interview Jonh H.</span>
+                        <span class="color-btn btn-recru">Recruiting</span>
+                    </li>
+                    <li>
+                        <span class="check">&check;</span>
+                        <span>summit update to mobile storefronts</span>
+                        <span class="color-btn btn-mobile">Mobile</span>
+                    </li>
                 </ul>
             </div>
-            <div class="upcoming"></div>
+
+
+            <div class="upcoming">
+                <h2>Upcoming</h2>
+                <ul>
+                    <li>
+                        <span class="cross">&cross;</span>
+                        <span>Schedule meeting with Alex</span>
+                    </li>
+                    <li>
+                        <span class="check">&check;</span>
+                        <span>summit update to mobile storefronts</span>
+                        <span class="color-btn btn-website">Website</span>
+                    </li>
+                    <li>
+                        <span class="check">&check;</span>
+                        <span>summit update to mobile storefronts</span>
+                        <span class="color-btn btn-sales">Sales</span>
+                    </li>
+                    <li>
+                        <span class="check">&check;</span>
+                        <span>summit update to mobile storefronts</span>
+                        <span class="color-btn btn-editorial">Editorial</span>
+                    </li>
+                </ul>
+            </div>
+
+
         </section>
 
     </main>
