@@ -7,8 +7,10 @@
 
 body{
     background-color: #333;
+    font-family: 'Roboto', sans-serif;
 }
 
+/* stile header */
 header{
     height: 100px;
 
@@ -24,7 +26,51 @@ header{
 
 .logo-text{
     display: inline-block;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     vertical-align: middle;
+}
+/* fine stile header */
+
+.section-btn, .section-task{
+    background-color: white;
+    width: 80%;
+    line-height: 60px;
+    padding-left: 60px;
+}
+
+/* stile section bottoni */
+.section-btn{
+    height: 60px;
+    margin: 40px auto 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.btn{
+    padding: 0px 10px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#task-btn{
+    color: white;
+    background-color: #48ADF1;
+    border: 1px solid #48ADF1;
+}
+
+#sec-btn{
+    color: gray;
+    background-color: white;
+    border: 1px solid gray;
+}
+/* fine stile section bottoni */
+
+/* section task*/
+.section-task{
+    height: 550px;
+    margin: 4px auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
